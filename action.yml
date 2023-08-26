@@ -1,0 +1,8 @@
+name: 'flake8'
+description: 'Flake8 linter with plugins'
+outputs:
+  time: # id of output
+    description: 'Flake8 linter with plugins'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
