@@ -5,6 +5,4 @@ COPY files/ /files
 
 RUN pip3 install --no-cache-dir --no-deps -r /files/requirements.txt
 
-WORKDIR /github
-
 ENTRYPOINT /entrypoint.sh
