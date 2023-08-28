@@ -1,6 +1,8 @@
 astpretty==3.0.0
 attrs==23.1.0
 bandit==1.7.5
+black==23.7.0
+click==8.1.7
 eradicate==2.3.0
 flake8==6.1.0
 flake8-annotations-complexity==0.0.8
@@ -33,8 +35,12 @@ markdown-it-py==3.0.0
 mccabe==0.7.0
 mdurl==0.1.2
 mr-proper==0.0.7
+mypy-extensions==1.0.0
+packaging==23.1
+pathspec==0.11.2
 pbr==5.11.1
 pep8-naming==0.13.3
+platformdirs==3.10.0
 pycodestyle==2.11.0
 pydocstyle==6.3.0
 pyflakes==3.1.0
@@ -46,4 +52,3 @@ snowballstemmer==2.2.0
 stdlib-list==0.9.0
 stevedore==5.1.0
 tomli==2.0.1
-

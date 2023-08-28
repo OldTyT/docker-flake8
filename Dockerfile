@@ -1,5 +1,7 @@
 FROM python:3.10.12-slim
 
+ENV TYPE=check
+
 COPY entrypoint.sh /entrypoint.sh
 COPY files/ /files
 
