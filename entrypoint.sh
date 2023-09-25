@@ -4,6 +4,7 @@ if [ "$TYPE" = "check" ]; then
   flake8 &&  exit
 fi
 if [ "$TYPE" = "fix" ]; then
+  grep flake8 setup.cfg||mv /files/setup.cfg setup.cfg
   isort .
   black .
 else
