@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ "$TYPE" = "check" ]; then
   grep flake8 setup.cfg||mv /files/setup.cfg setup.cfg
-  flake8 &&  exit
+  flake8; exit $?
 fi
 if [ "$TYPE" = "fix" ]; then
   grep flake8 setup.cfg||mv /files/setup.cfg setup.cfg
